@@ -30,7 +30,7 @@ TweenMax.to( arrow, 1, {bottom:"-=15",  opacity:1, ease:Linear.easeNone, repeat:
 /*------ Nav scroll function -------*/
 jQuery(document).ready(function($) {
  $(window).scroll(function() {
-        var nav = $('nav');
+        var nav = $('#nav');
         var scrollTop = $(window).scrollTop();
         console.log("The scroll top", scrollTop); 
         
