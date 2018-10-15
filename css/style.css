@@ -223,6 +223,26 @@ header{
     
 }
 
+@media (max-width : 506px){
+   
+    .intro{
+       font-size : 43px;
+       margin-top : 38%; 
+    }
+    .intro-line {
+    margin-top: 42%;
+    }
+    
+    .profile{
+    width: 82%;
+    }
+    
+     .intro-line2 {
+      margin-left : 72%;   
+    }
+    
+}
+
 .scroll-down-btn{
     background: url(../images/arrow.png) no-repeat;
     left: 50%;
