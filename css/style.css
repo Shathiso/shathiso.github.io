@@ -148,7 +148,7 @@ header{
 
 
 .intro-line {
-    margin-top: 20%;
+    margin-top: 22%;
     margin-bottom: 0px;
     display: block;
     opacity: 0;
@@ -157,6 +157,8 @@ header{
     width: 77px;
     border-top: 3px solid #eee;
 }
+
+
 
 
 .intro-line2 {
@@ -203,6 +205,22 @@ header{
     font-family: Raleway;
     position: relative;
     text-align: left;
+}
+
+
+@media (max-width : 679px){
+   
+    .intro{
+       margin-top : 20%; 
+    }
+    .intro-line {
+    margin-top: 28%;
+    }
+    
+    .profile{
+    width: 70%;
+    }
+    
 }
 
 .scroll-down-btn{
