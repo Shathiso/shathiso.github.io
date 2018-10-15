@@ -19,8 +19,8 @@ TweenLite.to( line2, 2, {opacity:1, delay : 2});
 TweenLite.to( info, 2, {opacity:1, delay : 2});
 TweenLite.to( profile, 2, {opacity:1, delay : 2});
 TweenLite.from( main_header, 1, {fontSize : 1 });
-TweenMax.to( arrow, 1, {bottom:"+=1",  opacity:1, ease:Linear.easeNone, repeat:-1, delay : 4 , yoyo:true});
-TweenMax.to( arrow, 1, {bottom:"-=15",  opacity:1, ease:Linear.easeNone, repeat:-1, delay : 4 , yoyo:true});
+/*TweenMax.to( arrow, 1, {bottom:"+=1",  opacity:1, ease:Linear.easeNone, repeat:-1, delay : 4 , yoyo:true});
+TweenMax.to( arrow, 1, {bottom:"-=15",  opacity:1, ease:Linear.easeNone, repeat:-1, delay : 4 , yoyo:true});*/
  
 
 })(jQuery);
