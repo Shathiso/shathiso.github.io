@@ -1,0 +1,392 @@
+@font-face {
+    font-family: 'Arvo-Regular';
+    src: url('../fonts/Arvo-Regular.eot');
+    src: url('../fonts/Arvo-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arvo-Regular.woff') format('woff'),
+         url('../fonts/Arvo-Regular.ttf') format('truetype'),
+         url('../fonts/Arvo-Regular.svg#capsuularegular') format('svg');
+    font-style: normal;
+}
+
+
+
+body, html{
+ display : block;
+ position : relative;
+ width : 100% !important;
+ font-family: 'Raleway' !important;
+ font-weight: 600;
+ margin : 0 !important;
+ overflow-x: hidden;
+ background: url(../images/light_wool_2.png);
+}
+
+/*-- bootstrap row --*/
+
+p{
+    color : #878787;
+}
+/*-- content container --*/
+.content-container{
+ display : block;
+ position : relative;
+ width : 86%;
+ margin : 0 auto;
+}
+
+
+
+
+/*-- clear-fix, clearing all floats --*/
+.clearfix{
+ clear : both;
+}
+
+
+/*-- navigation --*/
+nav{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    min-height: 57px;
+    transition: all ease-in-out 0.5s;
+}
+
+
+.black-nav{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+43,020101+74,020101+82&0+22,0.75+69,0.86+76,0.86+82,0.69+87,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,0) 22%, rgba(0,0,0,0.34) 43%, rgba(2,1,1,0.75) 69%, rgba(2,1,1,0.83) 74%, rgba(2,1,1,0.86) 76%, rgba(2,1,1,0.86) 82%, rgba(2,1,1,0.69) 87%, rgba(2,1,1,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0) 22%,rgba(0,0,0,0.34) 43%,rgba(2,1,1,0.75) 69%,rgba(2,1,1,0.83) 74%,rgba(2,1,1,0.86) 76%,rgba(2,1,1,0.86) 82%,rgba(2,1,1,0.69) 87%,rgba(2,1,1,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0) 22%,rgba(0,0,0,0.34) 43%,rgba(2,1,1,0.75) 69%,rgba(2,1,1,0.83) 74%,rgba(2,1,1,0.86) 76%,rgba(2,1,1,0.86) 82%,rgba(2,1,1,0.69) 87%,rgba(2,1,1,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00020101',GradientType=1 ); /* IE6-9 */ilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#21020101',GradientType=1 ); /* IE6-9 */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#21020101',GradientType=1 ); /* IE6-9 */er: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#4a020101',GradientType=1 ); /* IE6-9 */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80020101',GradientType=1 ); /* IE6-9 */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#db020101',GradientType=0 ); /* IE6-9 */ 
+    padding: 10px 50px;
+    transition: all ease-in-out 0.5s;
+}
+
+
+nav ul {
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    float: right;
+    display: inline-block;
+    margin-right: 7%;
+
+}
+
+
+nav ul li a{
+ position: relative;
+ font-size: 13px;
+ text-transform : uppercase;
+ color: white;
+ padding-top: 14px;
+ padding-bottom: 5px;
+ padding: 0px 5px 5px 5px;
+ border-bottom: 3px solid transparent;
+}
+
+nav ul li a:hover{
+ top:  2px;
+ padding-bottom: 6px;
+ color: #efefef;
+ text-decoration: none;
+ border-bottom: 3px solid #bd032a;
+ transition: 0.5s ease-in-out all;
+}
+/*-- End! - navigation  --*/
+
+/*-- header --*/
+header{
+ display : block;
+ position : relative;
+ width : 100%; 
+ min-height : 100vh;
+ background : url(../images/background2.jpg) no-repeat;
+ background-size:  cover;
+ background-attachment:  fixed;
+}
+
+
+
+.logo{
+    margin-top : 37px;
+    font-size : 31px;
+    padding-right : 0px;
+    float : left;
+}
+
+.logo span{
+    color : #f26522;
+    font-weight : bold;
+}
+
+
+.intro{
+    font-size: 53px;
+    font-family: 'Raleway', sans-serif !important;
+     text-shadow: 1px 3px 2px black;
+     margin-top: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 15%;
+    opacity: 0;
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-left: 9%;
+}
+
+.intro span{
+    font-weight: 500;
+}
+
+
+.intro-line {
+    margin-top: 20%;
+    margin-bottom: 0px;
+    display: block;
+    opacity: 0;
+    margin-left: 9%;
+    position: relative;
+    width: 77px;
+    border-top: 3px solid #eee;
+}
+
+
+.intro-line2 {
+    top: 26px;
+    margin-bottom: 0px;
+    display: block;
+    opacity: 0;
+    margin-left: 42%;
+    position: relative;
+    width: 77px;
+    box-shadow: 1px -1px 7px black;
+    border-top: 6px solid #eee;
+}
+
+.desc{
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive !important;
+    position: relative;
+    text-shadow: 2px 2px 0px black;
+    /*--text-shadow: 2px -3px 1px black;--*/
+    color: rgb(189,3,42);
+    margin-top: 1px;
+    opacity: 1;
+    text-align: left;
+}
+
+.profile{
+    width: 47%;
+    display: block;
+    margin-top: 21px;
+    opacity: 0;
+    padding-left: 9%;
+    position: relative;
+    float: left;
+}
+
+.info{
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    opacity: 0;
+    text-shadow: 1px 3px 2px black;
+    font-weight: 400;
+    font-family: Raleway;
+    position: relative;
+    text-align: left;
+}
+
+.scroll-down-btn{
+    background: url(../images/arrow.png) no-repeat;
+    left: 50%;
+    margin-left: -15px;
+    background-size: 66px;
+    margin-top:  0px;
+    opacity: 0.4;
+    padding: 33px;
+    position: absolute;
+    bottom: 0;
+}
+
+header .divide {
+    height: 14px;
+    width: 100%;
+    position: absolute;
+    bottom: -14px;
+    z-index: 4;
+    /* border-top: 1px solid #efeeee; */
+    background: url(../images/divide.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/*-- End! of header  --*/
+
+
+/*-- main-content --*/
+main{
+ display : block;
+ position : relative;
+ width : 100%;
+}
+
+
+/*---- Projects----*/
+
+
+#Projects{
+ display: block;
+ padding:  93px 0px 93px 0px;
+
+}
+
+
+
+#Projects h1{
+    text-align: center;
+    color: #bd032a;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight:  300;
+    font-size: 55px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 70px;
+}
+
+#Projects h1 span{
+    font-family: 'Kaushan Script', cursive !important;
+}
+
+ .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      background: rgba(0,0,0,0.9);
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px !important;
+      height: 380px !important;
+      overflow: hidden;
+    }
+    
+    .img-info {
+    background: #fefefe;
+    color: #080808;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+}
+    
+#Projects .websites{
+ /*perspective: 600px;*/
+ margin-bottom: 85px;
+}
+
+#Projects img{
+
+/* transition-property: transform;
+transition-duration: 0.7s;
+transform: matrix3d(0.7109, 0, -0.703279, 0,
+0, 1, 0, 0,
+0.703279, 0, 0.7109, 0,
+0, 0, 0, 1);
+box-reflect:below 15px
+gradient(linear, left top, left bottom, from(transparent),
+color-stop(0.7, transparent), to(#ff0000));*/
+}
+
+#Projects img:hover{
+/* transition-property: transform;
+transition-duration: 0.7s;
+transform: matrix3d(1, 0, 0, 0,
+0, 1, 0, 0,
+0, 0, 1, 0,
+0, 0, 100, 1);*/
+}
+
+
+
+
+/*---- Projects----*/
+
+
+#Contact-Me{
+ display: block;
+ padding: 93px 0px 93px 0px;
+ 
+
+}
+
+#Contact-Me .divide{
+    height: 14px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-top: 1px solid #efeeee;
+    background: url(../images/divide.png) no-repeat;
+    background-position: top 0 center;
+}
+
+#Contact-Me h1{
+    text-align: center;
+    color: #bd032a;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight:  300;
+    font-size: 55px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+#Contact-Me h1 span{
+    font-family: 'Kaushan Script', cursive !important;
+}
+
+#Contact-Me img{
+   width: 100%;
+   height:  auto;
+}
+
+#Contact-Me .contact-info{
+ line-height: 30px;
+}
+
+#Contact-Me .contact-info span{
+ font-family: 'Kaushan Script', cursive !important;
+ font-size:  19px;
+ color: #bd032a;
+}
+
+#Contact-Me .contact-info a{
+ color: black;
+}
+
+
+
+
+/*-- End! of main-content  --*/
+
+/*-- side bar --*/
+aside{
+ display : block;
+ position : relative;
+ width : 100%;
+}
+
+/*-- End! of side-bar  --*/
+
+/*-- footer --*/
+
+
+/*-- End! of Footer  --*/
+
+/* -- media query - @media(max-width : 60px) --*/
