@@ -55,11 +55,7 @@ nav{
 
 
 .black-nav{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+43,020101+74,020101+82&0+22,0.75+69,0.86+76,0.86+82,0.69+87,0+100 */
-background: -moz-linear-gradient(left, rgba(0,0,0,0) 22%, rgba(0,0,0,0.34) 43%, rgba(2,1,1,0.75) 69%, rgba(2,1,1,0.83) 74%, rgba(2,1,1,0.86) 76%, rgba(2,1,1,0.86) 82%, rgba(2,1,1,0.69) 87%, rgba(2,1,1,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, rgba(0,0,0,0) 22%,rgba(0,0,0,0.34) 43%,rgba(2,1,1,0.75) 69%,rgba(2,1,1,0.83) 74%,rgba(2,1,1,0.86) 76%,rgba(2,1,1,0.86) 82%,rgba(2,1,1,0.69) 87%,rgba(2,1,1,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, rgba(0,0,0,0) 22%,rgba(0,0,0,0.34) 43%,rgba(2,1,1,0.75) 69%,rgba(2,1,1,0.83) 74%,rgba(2,1,1,0.86) 76%,rgba(2,1,1,0.86) 82%,rgba(2,1,1,0.69) 87%,rgba(2,1,1,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00020101',GradientType=1 ); /* IE6-9 */ilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#21020101',GradientType=1 ); /* IE6-9 */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#21020101',GradientType=1 ); /* IE6-9 */er: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#4a020101',GradientType=1 ); /* IE6-9 */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80020101',GradientType=1 ); /* IE6-9 */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#db020101',GradientType=0 ); /* IE6-9 */ 
+    background: rgba(0,0,0,0.4);
     padding: 10px 50px;
     transition: all ease-in-out 0.5s;
 }
@@ -230,15 +226,31 @@ header{
        margin-top : 38%; 
     }
     .intro-line {
-    margin-top: 50%;
+    margin-top: 49%;
     }
     
     .profile{
-    width: 82%;
+    width: 91%;
     }
     
      .intro-line2 {
       margin-left : 72%;   
+    }
+    
+}
+
+
+@media (max-width : 386px){
+   
+    .intro{
+       font-size : 33px;
+    }
+    .intro-line {
+    margin-top: 49%;
+    }
+    
+    .desc {
+    font-size: 29px;
     }
     
 }
@@ -427,4 +439,10 @@ aside{
 
 /*-- End! of Footer  --*/
 
-/* -- media query - @media(max-width : 60px) --*/
+/* -- media query - */
+@media(max-width : 506px){
+   #Contact-Me .websites{
+     display : none;  
+    }
+    
+}
