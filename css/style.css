@@ -86,6 +86,9 @@ nav ul li a{
  border-bottom: 3px solid transparent;
 }
 
+nav ul li a:focus, a:visited{
+    color: #efefef;
+}
 nav ul li a:hover{
  top:  2px;
  padding-bottom: 6px;
@@ -93,6 +96,19 @@ nav ul li a:hover{
  text-decoration: none;
  border-bottom: 3px solid #bd032a;
  transition: 0.5s ease-in-out all;
+}
+
+@media (max-width : 449px){
+   .black-nav {
+    padding: 10px 0px; 
+    }
+}
+
+@media (max-width : 348px){
+    .content-container{
+       width : 94%; 
+    }
+    
 }
 /*-- End! - navigation  --*/
 
@@ -247,6 +263,10 @@ header{
     }
     .intro-line {
     margin-top: 49%;
+    }
+    
+    .info {
+    font-size: 18px;
     }
     
     .desc {
