@@ -44,7 +44,7 @@ p{
 
 
 /*-- navigation --*/
-nav{
+#nav{
     display: block;
     position: fixed;
     width: 100%;
@@ -61,12 +61,12 @@ nav{
 }
 
 
-nav ul {
+#nav ul {
     margin-top: 17px;
     margin-bottom: 10px;
 }
 
-nav ul li{
+#nav ul li{
     list-style: none;
     float: right;
     display: inline-block;
@@ -75,7 +75,7 @@ nav ul li{
 }
 
 
-nav ul li a{
+#nav ul li a{
  position: relative;
  font-size: 13px;
  text-transform : uppercase;
@@ -86,7 +86,7 @@ nav ul li a{
  border-bottom: 3px solid transparent;
 }
 
-nav ul li a:focus, a:visited{
+#nav ul li a:focus, a:visited{
     color: #efefef;
 }
 nav ul li a:hover{
