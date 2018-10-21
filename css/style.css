@@ -329,7 +329,6 @@ main{
  .swiper-container {
       width: 100%;
       padding-top: 50px;
-      background: rgba(0,0,0,0.9);
       padding-bottom: 50px;
     }
     .swiper-slide {
