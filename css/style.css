@@ -21,6 +21,11 @@ body, html{
  background: #1a1819;
 }
 
+
+body{
+ background: #1a1819 ! important;
+}
+
 /*-- bootstrap row --*/
 
 p{
@@ -33,9 +38,6 @@ p{
  width : 86%;
  margin : 0 auto;
 }
-
-
-
 
 /*-- clear-fix, clearing all floats --*/
 .clearfix{
