@@ -18,7 +18,7 @@ body, html{
  font-weight: 600;
  margin : 0 !important;
  overflow-x: hidden;
- background: url(../images/light_wool_2.png);
+ background: #1a1819;
 }
 
 /*-- bootstrap row --*/
@@ -402,7 +402,6 @@ transform: matrix3d(1, 0, 0, 0,
     width: 100%;
     position: absolute;
     top: 0;
-    border-top: 1px solid #efeeee;
     background: url(../images/divide.png) no-repeat;
     background-position: top 0 center;
 }
@@ -437,7 +436,7 @@ transform: matrix3d(1, 0, 0, 0,
 }
 
 #Contact-Me .contact-info a{
- color: black;
+ color: white;
 }
 
 
